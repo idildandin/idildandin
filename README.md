@@ -1,51 +1,48 @@
-Proje Adı: Spotify Dinleme Alışkanlıklarının Hava Durumuna Göre Analizi
+Project Title: Analysis of Spotify Listening Habits Based on Weather Conditions
+
+Project Objective:
+This project aims to understand how my music preferences change according to weather conditions by analyzing my Spotify listening history and weather data. The analysis will focus on how features like genres, energy levels, and tempo of the music I listen to differ under various weather conditions, such as sunny, rainy, or cloudy days.
+
+Data Sources:
+Spotify Data: Listening history (song name, artist, genre, listening time) will be retrieved using the Spotify API.
+Weather Data: Weather information (e.g., sunny, rainy, temperature) for listening dates will be obtained using the OpenWeatherMap API.
+Due to privacy concerns, the collected data will not be shared, but the code and visualizations used for the analysis will be made available.
+Steps:
+
+Data Collection and Cleaning:
+Retrieving and organizing listening history using the Spotify API.
+Collecting and matching weather data with listening dates using the OpenWeatherMap API.
+Visualization and Analysis:
+Visualizing distributions of music genres, energy, and tempo based on daily weather conditions.
+Performing comparative analyses of weather conditions and music preferences.
+
+Reporting Results:
+Providing a detailed explanation of changes in listening habits.
+Presenting findings with visualizations.
+Tools and Technologies:
+
+Python Libraries:
+spotipy: To fetch data from the Spotify API.
+requests: To retrieve weather data from the OpenWeatherMap API.
+pandas: For data cleaning and organization.
+matplotlib and seaborn: For visualizations.
+Jupyter Notebook: For organizing and executing analyses and code.
+GitHub: For sharing code and tracking project progress.
+
+Planned Timeline:
+Initial Analysis and Data Cleaning: December 5, 2024
+Visualization: December 15, 2024
+Final Report and Presentation: January 5, 2025
+
+Contributor:
+Idil Berra Dandin
 
 
-Proje Amacı
-Bu proje, Spotify dinleme geçmişimi ve hava durumu verilerini analiz ederek müzik tercihlerimin hava koşullarına göre nasıl değiştiğini anlamayı amaçlamaktadır.  
-Analiz sırasında dinlediğim müziklerin türleri, enerji seviyesi ve tempo gibi özelliklerinin güneşli, yağmurlu veya bulutlu havalar gibi koşullarda nasıl farklılık gösterdiği incelenecektir.
 
 
-Veri Kaynağı
-Spotify Verileri: Spotify API kullanılarak dinleme geçmişi (şarkı adı, sanatçı, tür, dinleme zamanı) çekilecektir.
-Hava Durumu Verileri: OpenWeatherMap API üzerinden dinleme günleri için ilgili lokasyonun hava durumu bilgileri (güneşli, yağmurlu, sıcaklık gibi) elde edilecektir.
-Veriler gizlilik nedeniyle paylaşılmayacak, ancak analiz için kullanılan kodlar ve görseller paylaşılacaktır.
 
 
-Aşamalar
-Verilerin Toplanması ve Temizlenmesi
-Spotify API ile dinleme geçmişinin çekilmesi ve düzenlenmesi.
-OpenWeatherMap API üzerinden hava durumu bilgilerinin toplanması ve eşleştirilmesi.
 
-
-Görselleştirme ile Analiz
-Günlük hava durumu bilgilerine göre müzik türleri, enerji ve tempo özelliklerinin dağılımının görselleştirilmesi.
-Hava durumu ve müzik tercihlerinin karşılaştırmalı analizinin yapılması.
-
-
-Sonuçların Raporlanması
-Dinleme alışkanlıklarındaki değişimlerin detaylı şekilde açıklanması.
-Elde edilen bulguların grafiklerle sunulması.
-
-
-Kullanılan Araçlar ve Teknolojiler
-Python Kütüphaneleri:
-spotipy: Spotify API'den veri çekmek için.
-requests: OpenWeatherMap API ile hava durumu verilerini çekmek için.
-pandas: Veri temizleme ve düzenleme.
-matplotlib ve seaborn: Görselleştirme.
-Jupyter Notebook: Analizlerin ve kodların düzenli şekilde yürütülmesi.
-GitHub: Kodların ve proje ilerlemesinin paylaşılması.
-
-
-Planlanan İlerleme
-İlk Analiz ve Veri Temizleme: 5 Aralık 2024
-Görselleştirme: 15 Aralık 2024
-Nihai Rapor ve Sunum: 5 Ocak 2025
-
-
-Katkıda Bulunanlar
-İdil Berra Dandin
 <!---
 idildandin/idildandin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
